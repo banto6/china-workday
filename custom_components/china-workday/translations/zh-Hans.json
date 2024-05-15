@@ -1,0 +1,30 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "data": {
+                    "datasource": "数据源"
+                },
+                "description": "请输入节假日数据源",
+                "title": "配置节假日数据源"
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "menu_options": {
+                    "update_datasource": "更新数据源",
+                    "clear_cache": "清除缓存"
+                }
+            },
+            "update_datasource": {
+                "title": "更新数据源",
+                "description": "请输入节假日数据源",
+                "data": {
+                    "datasource": "数据源"
+                }
+            }
+        }
+    }
+}
