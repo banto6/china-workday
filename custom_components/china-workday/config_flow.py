@@ -25,7 +25,7 @@ class ChinaWorkdayConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
             step_id="user",
             data_schema=vol.Schema(
                 {
-                    vol.Required('datasource', default='https://mirror.ghproxy.com/https://raw.githubusercontent.com/NateScarlet/holiday-cn/master/{year}.json'): str,
+                    vol.Required('datasource', default='https://ghfast.top/https://raw.githubusercontent.com/NateScarlet/holiday-cn/master/{year}.json'): str,
                 }
             ),
             errors=errors
